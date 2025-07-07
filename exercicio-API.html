@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>API Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌐 API Explorer</h1>
+    <p>Utilizando Fetch com JSONPlaceholder e Rick and Morty API</p>
+  </header>
+
+  <main>
+    <!-- Tarefas GET -->
+    <section class="card">
+      <h2>✅ Tarefas</h2>
+      <ul id="lista-tarefas">Carregando tarefas...</ul>
+    </section>
+
+    <!-- Comentário POST -->
+    <section class="card">
+      <h2>💬 Enviar Comentário</h2>
+      <form id="form-comentario">
+        <input type="text" id="nome" placeholder="Seu nome" required />
+        <textarea id="comentario" rows="4" placeholder="Seu comentário" required></textarea>
+        <button type="submit">✉️ Enviar</button>
+      </form>
+    </section>
+
+    <!-- Buscar Personagem -->
+    <section class="card">
+      <h2>🔍 Buscar Personagem (Rick and Morty)</h2>
+      <div class="buscar-box">
+        <input type="text" id="nome-personagem" placeholder="Digite o nome..." />
+        <button onclick="buscarPersonagem()">🔎 Buscar</button>
+      </div>
+      <div id="resultado-personagem" class="resultado"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com 💙 por você</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

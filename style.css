@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #f8fbff, #e8f0ff);
+    color: #333;
+    padding: 2rem;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #1e3a8a;
+  }
+  
+  header p {
+    color: #4b5563;
+    margin-top: 0.5rem;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .card h2 {
+    color: #1d4ed8;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    background: #eff6ff;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    border-radius: 6px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background: #f9fafb;
+    font-size: 1rem;
+  }
+  
+  button {
+    background: #3b82f6;
+    color: white;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #2563eb;
+  }
+  
+  .buscar-box {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .resultado {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .resultado img {
+    max-width: 200px;
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 3rem;
+    color: #6b7280;
+  }
+  
